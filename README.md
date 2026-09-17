@@ -1,7 +1,7 @@
-# Documentação do Sistema: Barbearia The Family
+# Documentação do Sistema: Barbearia The Family Hair
 
 ## 1. Caracterização da Organização
-A Barbearia The Family é uma empresa privada de pequeno porte, atuando no setor de prestação de serviços de beleza e estética masculina. Contando com 2 cadeiras de atendimento e apenas 1 profissional responsável, o barbeiro Victor. As principais atividades envolvem cortes de cabelo, barba, combos e serviços extras. 
+A Barbearia The Family Hair é uma empresa privada de pequeno porte, atuando no setor de prestação de serviços de beleza e estética masculina. Contando com 2 cadeiras de atendimento e apenas 1 profissional responsável, o barbeiro Victor. As principais atividades envolvem cortes de cabelo, barba, combos e serviços extras. 
 
 Durante a pesquisa de campo, foram identificados problemas críticos relacionados à gestão da agenda, como a confusão na marcação de horários e o alto índice de cancelamentos de última hora ou ausência de clientes sem aviso prévio. A escolha desta organização justifica-se pela necessidade real de um sistema que organize a agenda do único profissional, evite conflitos de horários e elimine os prejuízos causados pela ociosidade. 
 
