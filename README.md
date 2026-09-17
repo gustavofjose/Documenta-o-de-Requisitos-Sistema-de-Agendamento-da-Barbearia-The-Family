@@ -81,7 +81,9 @@ Para garantir a integridade do modelo, os dados dos clientes utilizados em exemp
 ## 6. Modelagem e DER
 O Diagrama Entidade-Relacionamento (DER) foi construído com base nas entidades CLIENTE, PROFISSIONAL, AGENDAMENTO, SERVICO, SERVICO_EXTRA, PAGAMENTO e AVALIACAO, além das tabelas associativas AGENDAMENTO_SERVICO e AGENDAMENTO_EXTRA. 
 
-As cardinalidades refletem a realidade da barbearia: um CLIENTE pode realizar vários AGENDAMENTOS (1:N), enquanto cada agendamento pertence a um único cliente. Da mesma forma, um PROFISSIONAL (Victor) pode ter vários agendamentos (1:N). A relação entre AGENDAMENTO e SERVICO é do tipo N:N, resolvida pela tabela associativa AGENDAMENTO_SERVICO. O mesmo ocorre para os serviços extras, onde a tabela AGENDAMENTO_EXTRA resolve a relação N:N entre AGENDAMENTO e SERVICO_EXTRA. Por fim, cada AGENDAMENTO gera um único PAGAMENTO (1:0..1) e pode gerar uma única AVALIACAO (1:0..1). 
+As cardinalidades refletem a realidade da barbearia: um CLIENTE pode realizar vários AGENDAMENTOS (1:N), enquanto cada agendamento pertence a um único cliente. Da mesma forma, um PROFISSIONAL (Victor) pode ter vários agendamentos (1:N). A relação entre AGENDAMENTO e SERVICO é do tipo N:N, resolvida pela tabela associativa AGENDAMENTO_SERVICO. O mesmo ocorre para os serviços extras, onde a tabela AGENDAMENTO_EXTRA resolve a relação N:N entre AGENDAMENTO e SERVICO_EXTRA. Por fim, cada AGENDAMENTO gera um único PAGAMENTO (1:0..1) e pode gerar uma única AVALIACAO (1:0..1).
+
+##![Diagrama Entidade-Relacionamento](Diagrama(DER).png)
 
 ## 7. Justificativa Técnica
 A modelagem proposta foi estruturada para resolver os problemas identificados na pesquisa de campo e garantir a integridade dos dados. A entidade CLIENTE foi criada para armazenar o histórico de quem frequenta a barbearia, permitindo identificar clientes que cancelam com frequência. A entidade PROFISSIONAL é essencial para gerenciar a agenda do Victor e evitar sobreposição de horários. O AGENDAMENTO atua como a entidade central, conectando cliente, profissional, serviços e pagamento.
