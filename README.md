@@ -1,4 +1,5 @@
 # Documentação do Sistema: Barbearia The Family Hair
+Colaboradores: GUSTAVO RGM
 
 ## 1. Caracterização da Organização
 A Barbearia The Family Hair é uma empresa privada de pequeno porte, atuando no setor de prestação de serviços de beleza e estética masculina. Contando com 2 cadeiras de atendimento e apenas 1 profissional responsável, o barbeiro Victor. As principais atividades envolvem cortes de cabelo, barba, combos e serviços extras. 
