@@ -1,8 +1,11 @@
 # Documentação do Sistema: Barbearia The Family Hair
 Colaboradores: 
 Gustavo Frutuoso 47604565
+
 Antonio Dantas 47788356
+
 Arthur de Jesus 47764988
+
 Heitor Tureck 47104503
 
 ## 1. Caracterização da Organização
